@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    height: 100vh;
+    /* margin: 0px 0px; */
+}
+.box{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-color: blue;
+    background: repeating-radial-gradient(red, green, yellow);
+    perspective: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+  
+  }
+.subpart{
+    height:300px;
+    width:300px;
+    transform:rotateX(45deg);
+    transform-style: preserve-3d;
+   background-image:url('..//img/images.jpg');
+    /* border-radius: 50%; */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
